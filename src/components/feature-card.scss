@@ -1,0 +1,45 @@
+.feature-card {
+  break-inside: avoid;
+  margin-bottom: 0.5em;
+
+  .feature-card-header {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    padding: 0 1em;
+    color: #FFFFFF;
+
+    &.check {
+      background-color: var(--check-color);
+    }
+
+    &.error {
+      background-color: var(--error-color);
+    }
+
+    &.warning {
+      background-color: var(--warning-color);
+    }
+
+    .feature-title {
+      flex-grow: 1;
+      text-indent: 25px;
+      font-size: 1em;
+      font-weight: normal;
+      margin: 0;
+      line-height: 43px;
+    }
+  }
+
+  .controls-content {
+    padding: 0.8em 1em;
+    background-color: #CCCCCC;
+  }
+
+  .controls-footer {
+    height: 35px;
+    background-color: #DDDDDD;
+    align-items: center;
+    cursor: pointer;
+  }
+}

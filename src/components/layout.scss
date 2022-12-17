@@ -1,0 +1,31 @@
+.d-flex {
+  display: flex;
+
+  &.space-around {
+    align-content: space-around;
+  }
+
+  &.f-wrap {
+    flex-wrap: wrap;
+  }
+
+  .f-grow-1 {
+    flex-grow: 1;
+  }
+}
+
+header {
+  .abb-logo {
+    width: 4.2em;
+    margin-right: 0.5em;
+  }
+
+  p {
+    margin: 0;
+
+    span {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

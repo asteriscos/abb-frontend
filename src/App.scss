@@ -1,0 +1,18 @@
+:root {
+  --check-color: #329a5d;
+  --error-color: #f02f40;
+  --warning-color: #e9c704;
+  --dark-grey: #d2d2d2;
+  --light-grey: #e4e4e4;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 30px;
+}

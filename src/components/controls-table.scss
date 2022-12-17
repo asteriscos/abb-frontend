@@ -1,0 +1,29 @@
+.controls-table {
+  font-size: 0.8em;
+  display: grid;
+  grid-template-columns: repeat(3, auto) 16px;
+  grid-auto-rows: 2.8em;
+  color: #555555;
+
+  .control-table-header {
+    color: #444444;
+  }
+
+  .control-name {
+    margin: 0;
+
+    span {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .control-dev {
+    text-align: center;
+  }
+
+  .control-devout {
+    text-align: center;
+  }
+
+}

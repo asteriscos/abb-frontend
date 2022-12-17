@@ -1,0 +1,59 @@
+.text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.font-35 {
+  color: #000000;
+  font-size: 35px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 43px;
+}
+
+.font-18 {
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.font-16-black {
+  color: #000000;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.font-16-grey {
+  color: #4A4A4A;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.font-13 {
+  color: #4A4A4A;
+  font-size: 13px;
+  line-height: 19px;
+  opacity: 65%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.ckeck {
+  color: var(--check-color);
+}
+
+.error {
+  color: var(--error-color);
+}
+
+.warning {
+  color: var(--warning-color);
+}
+
+.dark {
+  color: var(--dark-color);
+}
+
+.white {
+  color: white;
+}
